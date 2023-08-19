@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   css: [
     '@/public/core.css',
   ],
+  app: {
+    baseURL: '',
+    buildAssetsDir: 'assets'
+  },
   router:
   {
     options: {
