@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   css: [
     '@/public/core.css',
   ],
-  ssr: false,
   router:
   {
     options: {
