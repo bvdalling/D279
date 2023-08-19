@@ -4,12 +4,6 @@ export default defineNuxtConfig({
   css: [
     '@/public/core.css',
   ],
-  app:{
-    baseURL: 'https://bvdalling.github.io/D279/'
-  },
-  vite: {
-    base: '/D279/'
-  },
   ssr: false,
   router:
   {
