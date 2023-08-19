@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@/public/core.css',
   ],
   app:{
-    baseURL: '/D279/'
+    baseURL: 'https://bvdalling.github.io/D279/'
   },
   vite: {
     base: '/D279/'
