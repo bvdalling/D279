@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   css: [
     '@/public/core.css',
   ],
+  app:{
+    baseURL: '/D279/'
+  },
+  vite: {
+    base: '/D279/'
+  },
   ssr: false,
   router:
   {
